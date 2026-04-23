@@ -2,6 +2,10 @@
 # Shipping-Management-System_Java-Backend
 Building a Scalable Microservices Application with Java Spring Boot and Angular
 
+THE SCENARIO:- 
+
+Congratulations! You were hired at IceToMeetYou Inc. as a consultant and they are looking to upgrade their current shipping management software to a more custom solution. IceToMeetYou Inc. is a startup who just got about $3B dollars in funding for their product that sells imported ice cubes to one guy stuck in the desert. Their current task management software is too small and limited in its functionality to handle all the incoming shipments this one guy, lets call him Dennis, needs to keep his smoothie cold. They want to build some task management system that can handle multiple incoming orders from Dennis to completion, assign orders to their worker penguins delivering the ice, track the progress of said penguins and receive real time notifications of status updates.
+
 <img width="1024" height="559" alt="005ab02b-be51-4fbe-8cae-879a5be1ba54" src="https://github.com/user-attachments/assets/6126a258-3647-450a-84a9-1d3f07a0b054" />
 
 
