@@ -1,3 +1,3 @@
-./idea
+idea/
 .idea
-./shipping-management-backend/target
+target/
