@@ -1,3 +1,25 @@
 spring:
+  # Application Configuration
   application:
     name: shipping-management
+
+  # Database Configuration (PostgreSQL)
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/postgres
+    password: admin
+
+  # JPA and Hibernate Configuration
+  jpa:
+    # Database platform dialect for PostgreSQL
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    properties:
+      hibernate:
+        # Format the SQL output for better readability
+        format_sql: 'true'
+    hibernate:
+      # Automatically update the database schema based on entity changes
+      ddl-auto: update
+    # Log SQL statements to the console
+    show-sql: 'true'
